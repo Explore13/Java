@@ -1,4 +1,4 @@
-package Topics.Jagged_Arrays;
+package Topics.Array_2D;
 
 
 public class Initialization {
