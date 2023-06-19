@@ -1,6 +1,5 @@
 package Topics.Array_2D;
 
-import java.sql.SQLOutput;
 
 public class Initialization {
     // Welcome to Explorer's JDK
