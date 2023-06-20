@@ -8,7 +8,7 @@ This is my `Java Repository`. At PW Skills, I'm taking a course called `Java wit
 #### LinkedIn : https://www.linkedin.com/in/ghosh-surya/
 #### Instagram(Personal) : https://www.instagram.com/suryaghosh_13/
 #### Instagram(PhotoGraphy) : https://www.instagram.com/_surya_the_explorer_/
-#### LinkTree(All Links Here) : https://linktr.ee/suryaghosh_13
+#### Linktree(All Links Here) : https://linktr.ee/suryaghosh_13
 
 ## NOTICE :
 I'm now completing a 100-day `DSA, Web Development and Self-Learning` Challenge that will last from June 11 to September 18.
