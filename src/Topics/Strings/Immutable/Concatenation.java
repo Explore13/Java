@@ -26,7 +26,6 @@ public class Concatenation {
 
 
             /*--------Concatenation Using .concat() Method---------*/
-
           /*
             String s1 = "PW";
             String s2 = s1.concat("Skill"); //We used inbuilt method and reference,it will be created outside the SCP. "

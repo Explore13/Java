@@ -19,5 +19,6 @@ public class _1_What {
         System.out.println(A.num); //public static final // we can access final using Class Name
 
         // A obj=new A(); A is an abstract class,we can not create an object of abstract class
+
     }
 }
