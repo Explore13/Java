@@ -7,8 +7,8 @@ public class WaysToCompare
         /*
         == is used to check if the variables are referring same object or not.
         equals() is used to compare the contents of two objects.
-        equalsIgnoreCase() is used to compare the contents of two objects and
-        it is not case sensitive,it ignores the cases.
+        equalsIgnoreCase() is used to compare the contents of two objects, and
+        it is not case-sensitive,it ignores the cases.
          */
         /*
         String s1="PWSKILL";
@@ -16,7 +16,7 @@ public class WaysToCompare
         System.out.println(s1==s2); //False
         System.out.println(s1.equals(s2)); // True
          */
-      /*
+        /*
         String s1="PWjava";
         String s2="PWjava";
         String s3="PWJava";
@@ -24,9 +24,9 @@ public class WaysToCompare
         System.out.println(s1==s3); //false
         System.out.println(s1.equals(s2)); //true
         System.out.println(s1.equals(s3)); //false
-       */
+        */
 
-       /*
+        /*
         String s1="PWjava";
 
         String s2="PWjava";
