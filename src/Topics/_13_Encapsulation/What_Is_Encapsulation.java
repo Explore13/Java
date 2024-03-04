@@ -1,4 +1,4 @@
-package Topics.Encapsulation;
+package Topics._13_Encapsulation;
 class Student{
 private String name;
 private int age;

@@ -1,6 +1,4 @@
-package Topics.Constructor;
-
-import java.util.Scanner;
+package Topics._14_Constructor;
 
 class StudentData{
     private String name;
