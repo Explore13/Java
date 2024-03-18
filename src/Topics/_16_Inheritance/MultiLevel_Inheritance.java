@@ -1,4 +1,4 @@
-package Topics.Inheritance;
+package Topics._16_Inheritance;
 class Demo1
 {
     void disp(){

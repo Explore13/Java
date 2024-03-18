@@ -1,4 +1,4 @@
-package Topics.StaticKeyword;
+package Topics._15_StaticKeyword;
 class Method{
     static void disp1(){
         System.out.println("Static Method");

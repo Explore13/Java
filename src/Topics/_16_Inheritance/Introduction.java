@@ -1,4 +1,4 @@
-package Topics.Inheritance;
+package Topics._16_Inheritance;
 class Human{ // Parent Class/Super Class/Base Class
     int age;
     void sleep(){

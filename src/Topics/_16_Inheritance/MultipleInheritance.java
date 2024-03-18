@@ -1,4 +1,4 @@
-package Topics.Inheritance;
+package Topics._16_Inheritance;
 class Parent1   // extends Object //Behind the scene
 {
  int age=18;

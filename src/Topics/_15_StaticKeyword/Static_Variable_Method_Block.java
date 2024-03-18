@@ -42,7 +42,7 @@ public class Static_Variable_Method_Block {
 
  */
 
-package Topics.StaticKeyword;
+package Topics._15_StaticKeyword;
 
 import java.util.Scanner;
 

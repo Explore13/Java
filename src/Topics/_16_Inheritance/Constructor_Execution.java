@@ -1,4 +1,4 @@
-package Topics.Inheritance;
+package Topics._16_Inheritance;
 class DemoClass{
     int a,b;
     public DemoClass(){

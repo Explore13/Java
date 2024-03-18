@@ -1,4 +1,4 @@
-package Topics.Inheritance;
+package Topics._16_Inheritance;
 class Animal1 {
    public void eat(){
         System.out.println("They eat everyday");

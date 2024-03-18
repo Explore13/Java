@@ -1,4 +1,4 @@
-package Topics.Inheritance;
+package Topics._16_Inheritance;
 class Animal{
     void sleep(){
         System.out.println("Animal need sleep");

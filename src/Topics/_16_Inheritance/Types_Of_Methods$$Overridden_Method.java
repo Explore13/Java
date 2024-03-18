@@ -1,4 +1,4 @@
-package Topics.Inheritance;
+package Topics._16_Inheritance;
 class AeroPlane1{
     public  void fly(){ //overridden
         System.out.println("Aeroplane can fly");

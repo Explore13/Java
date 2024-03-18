@@ -1,4 +1,4 @@
-package Topics.StaticKeyword;
+package Topics._15_StaticKeyword;
 
 public class StaticBlockVsJavaInitializationBlock {
     static  int age;
