@@ -1,14 +1,17 @@
-package MyPracticePage.Loops.Questions;
+package MyPracticePage.Loops.Qustions;
 
 import java.util.Scanner;
 
-public class ReverseNaturalNumber {
+public class OddNumbers {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n=scan.nextInt();
-        for (int i=n;i>=1;i--){
-            System.out.println(i);
-        }
+      for (int i=1;i<=n;i++){
+          if (i%2!=0){
+              System.out.println(i);
+          }
+          i++;
+      }
     }
 }

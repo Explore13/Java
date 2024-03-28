@@ -1,18 +1,14 @@
-package MyPracticePage.Loops.Questions;
+package MyPracticePage.Loops.Qustions;
 
 import java.util.Scanner;
 
-public class EvenNumbers {
+public class ReverseNaturalNumber {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n=scan.nextInt();
-        int i=1;
-        while(i<=n){
-            if (i%2==0){
-                System.out.println(i);
-            }
-            i++;
+        for (int i=n;i>=1;i--){
+            System.out.println(i);
         }
     }
 }

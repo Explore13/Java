@@ -1,4 +1,4 @@
-package Topics.Polymorphism;
+package Topics._17_Polymorphism;
 
 /*
 Abstract = No body inside
@@ -14,7 +14,7 @@ abstract class AeroPlane2{
       System.out.println("Aeroplane can fly");
   }
 
-  If any method is not implemented anywhere,then we can
+  If any method is not implemented anywhere, then we can
   change this method to an abstract method,here takeOff and fly
   are not used in anywhere. values are changing in every child class.
   So we will make it abstract
@@ -24,12 +24,12 @@ abstract class AeroPlane2{
     abstract public void fly();
 
     /*
-    If minimum one method is in the class then we have to make
+    If minimum one method is abstract in the class, then we have to make
     the class abstract.
 
-    Abstract method is such methods that does not contain an implementation
+    Abstract method is such methods that do not contain an implementation
     or body. Abstract method means it will be overridden by the subclass that
-    inherit from the abstract class.
+    inherits from the abstract class.
     */
 
 
@@ -93,7 +93,7 @@ public class _3_Abstraction$AbstractKeyword {
         AeroPlane2 ref1=new CargoPlane2();
         /*
         For the Abstract class
-        We can make reference of Abstract class type but can not
+        We can make reference of Abstract class type but cannot
         make object of Abstract class type
         */
         ref1.fly();

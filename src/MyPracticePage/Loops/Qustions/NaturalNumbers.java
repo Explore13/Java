@@ -1,4 +1,4 @@
-package MyPracticePage.Loops.Questions;
+package MyPracticePage.Loops.Qustions;
 
 import java.util.Scanner;
 

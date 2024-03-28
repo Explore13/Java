@@ -1,6 +1,4 @@
-package Topics.Polymorphism;
-
-import java.util.function.ToDoubleBiFunction;
+package Topics._17_Polymorphism;
 
 /*
 final class Animal {
