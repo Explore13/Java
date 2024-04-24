@@ -32,6 +32,8 @@ class Dev implements App{
 //        System.out.println("Can not be overridden");
 //    }
 }
+
+
 public class _5_Functional_Interface {
     public static void main(String[] args) {
         App.abc(); // static methods can be called only using class or interface name
