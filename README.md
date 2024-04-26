@@ -10,7 +10,3 @@ This is my `Java Repository`. At PW Skills, I'm taking a course called `Java wit
 #### Instagram(PhotoGraphy) : https://www.instagram.com/_surya_the_explorer_/
 #### Linktree(All Links Here) : https://linktr.ee/suryaghosh_13
 
-## NOTICE :
-I'm now completing a 100-day `DSA, Web Development and Self-Learning` Challenge that will last from June 11 to September 18.
-
-This repository is also a part of my self-growth. I get knowledge of creating GitHub repositories, uploading codes, and Git Commands.
