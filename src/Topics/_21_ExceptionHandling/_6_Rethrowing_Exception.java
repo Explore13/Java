@@ -28,18 +28,16 @@ public class _6_Rethrowing_Exception {
            */
 
 
-            if (num2 < 0) {
-                Exception e = new ArithmeticException("Negative Number");
-                throw e; // throw new Exception(); Inline Approach
-            }
+//            if (num2 < 0) {
+//                Exception e = new ArithmeticException("Negative Number");
+//                throw e; // throw new Exception(); Inline Approach
+//            }
 
 
-            /*
                 if (num2<0)
                 {
                      throw new MyException("Negative Number"); // Custom Exception
                 }
-            */
             int result = num1 / num2;
             System.out.println("Result : " + result);
         } catch (Exception e) {
