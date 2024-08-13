@@ -44,6 +44,7 @@ public class _8_Iterator_List_Iterator {
             System.out.print(iterator.next() + " ");
         }
 
+
         // List Iterator
         /*
         - ListIterator is only for "List" based classes. e.g : ArrayList and LinkedList
@@ -55,10 +56,8 @@ public class _8_Iterator_List_Iterator {
         */
         System.out.print("\nUsing ListIterator : ");
         ListIterator litr = list.listIterator(list.size()); // ListIterator ---> Interface (SubInterface of Iterator)
-        while (litr.hasPrevious()) {
-            // Only in ListIterator there is the previous() and hasPrevious() method.
-            System.out.print(litr.previous() + " ");
-        }
+        // Only in ListIterator there is the previous() and hasPrevious() method.
+        while (litr.hasPrevious()) System.out.print(litr.previous() + " ");
     }
 }
 

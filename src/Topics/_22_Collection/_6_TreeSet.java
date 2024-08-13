@@ -15,7 +15,7 @@ public class _6_TreeSet {
 
         System.out.println(ts); // [25, 50, 75, 100, 125, 150, 175]
 
-        ts.add(100); // Duplicate value can not be added
+        ts.add(100); // Duplicate value can not be added but it will produce any error
         System.out.println(ts); // [25, 50, 75, 100, 125, 150, 175]
 
         System.out.println("Higher : " + ts.higher(50) + " Lower : " + ts.lower(50));
@@ -28,6 +28,9 @@ public class _6_TreeSet {
         System.out.println("Ceiling Value : " + ts.ceiling(50) + " Floor Value : " + ts.floor(50));
         // Ceiling Value : 50 Floor Value : 50
 
+        // ts.add("Hi"); // Mixed type not allowed
+
+        
     }
 }
 

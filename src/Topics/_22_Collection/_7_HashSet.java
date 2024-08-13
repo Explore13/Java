@@ -11,7 +11,14 @@ public class _7_HashSet {
         hs.add(30);
         hs.add(40);
 
-        System.out.println(hs);
+        System.out.println(hs.hashCode()); // 190
+        System.out.println(hs); // [100, 20, 40, 30]
+
+        hs.add("Hi"); // Mixed data allowed
+
+        System.out.println(hs.hashCode()); // 2527
+        System.out.println(hs); // [Hi, 100, 20, 40, 30]
+
 
         // To preserve the order of insertion we have to use LinkedHashSet
         LinkedHashSet ls = new LinkedHashSet();
@@ -19,7 +26,12 @@ public class _7_HashSet {
         ls.add(20);
         ls.add(30);
         ls.add(40);
+        System.out.println(ls.hashCode());
         System.out.println(ls);
+
+        ls.add("Hi"); // Mixed type data allowed
+        System.out.println(ls.hashCode()); // 2527
+        System.out.println(ls); // [100, 20, 30, 40, Hi]
     }
 }
 /*

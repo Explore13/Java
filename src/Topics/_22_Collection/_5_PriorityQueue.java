@@ -15,7 +15,7 @@ public class _5_PriorityQueue {
         pq.add(175);
 
 
-        System.out.println("Priority queue is : " + pq); // 25, 50, 125, 100, 75, 150, 175]
+        System.out.println("Priority queue is : " + pq); // [25, 50, 125, 100, 75, 150, 175]
 
         pq.add(25); // Duplicate value is allowed
         System.out.println("Priority queue is : " + pq);

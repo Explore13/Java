@@ -12,6 +12,7 @@ public class _3_ArrayList {
         al1.add(300);
         al1.add(400);
         al1.add(500);
+        // al1.clear();
 
         System.out.println("al1 : " + al1);
         System.out.println("***********************************");
@@ -57,7 +58,6 @@ public class _3_ArrayList {
         al3.add(100); // Duplicate value is possible
         System.out.println("al3 after adding duplicate 100 : "+al3);
         System.out.println("***********************************");
-
 
     }
 }
