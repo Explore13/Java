@@ -23,7 +23,7 @@ class Node {
 }
 
 
-public class LinkedList {
+public class SinglyLinkedList {
 
     /*
      create LL
@@ -133,6 +133,98 @@ public class LinkedList {
         return head;
     }
 
+    /*
+    InsertAtHead
+    O(1)
+    */
+    private static Node insertAtHead(Node head, int x)
+    {
+
+        /*
+        No need to make the code complex by putting unnecessary checking
+        if(head == null) head = temp;
+        else {
+            temp.next = head;
+            head = temp;
+        }
+        return head;
+        */
+        return new Node(x,head);
+    }
+
+    /*
+    InsertAtLast
+    O(N) ---> Worst Case
+    O(1) ---> Best Case
+    */
+    private static Node insertAtLast(Node head, int x)
+    {
+        Node temp = new Node(x);
+        if(head == null) return temp;
+        Node moving = head;
+        while(moving.next!=null)
+        {
+            moving = moving.next;
+        }
+        moving.next = temp;
+        return head;
+    }
+
+    /*
+    Inserting at Kth Position
+    O(N) ---> Worst Case
+    O(1) ---> Best Case
+    */
+    private static Node insertingAtPosition(Node head, int x, int k)
+    {
+        if(head == null)
+        {
+            if(k ==1) return new Node(x);
+            else return null;
+        }
+        if(k ==1) return new Node(x, head);
+        int cnt = 0;
+        Node moving = head;
+        while(moving!=null)
+        {
+            cnt++;
+            if(cnt == k-1)
+            {
+                Node temp = new Node(x, moving.next);
+                moving.next = temp;
+                break;
+            }
+            moving = moving.next;
+        }
+        return head;
+    }
+    /*
+    Inserting before the element
+    O(N) ---> Worst Case
+    O(1) ---> Best Case
+    */
+    private static Node insertBeforeElement(Node head, int x, int el)
+    {
+        if(head == null) return null;
+        if(head.data == el) return new Node(x, head);
+        Node moving = head, prev = null;
+        boolean found = false;
+        while(moving!=null)
+        {
+            if(moving.data == el)
+            {
+                Node temp = new Node(x,moving);
+                prev.next = temp;
+                found = true;
+                break;
+            }
+            prev = moving;
+            moving = moving.next;
+        }
+        if(found == false) System.out.println(el+" not found");
+        return head;
+    }
+
     public static void main(String[] args) {
         int[] arr = {2, 3, 4, 5, 6};
 
@@ -166,6 +258,28 @@ public class LinkedList {
         // delete specific node
         int k = 2;
         head = deleteKthNode(head,k);
+        traverse(head);
+
+        // insert at head
+        int x = 100;
+        head = insertAtHead(head,x);
+        traverse(head);
+
+        // insert at last
+        x = 200;
+        head = insertAtLast(head,x);
+        traverse(head);
+
+        // insert at kth position
+        x = 20;
+        k = 4;
+        head = insertingAtPosition(head,x,k);
+        traverse(head);
+
+        // insert before the value
+        x = 500;
+        int el = 20;
+        head = insertBeforeElement(head, x, el);
         traverse(head);
     }
 }
