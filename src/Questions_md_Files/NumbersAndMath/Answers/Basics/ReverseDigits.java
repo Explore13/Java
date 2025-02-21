@@ -1,4 +1,4 @@
-package Questions_md_Files.NumbersAndMath.Answers;
+package Questions_md_Files.NumbersAndMath.Answers.Basics;
 
 import java.util.Scanner;
 
