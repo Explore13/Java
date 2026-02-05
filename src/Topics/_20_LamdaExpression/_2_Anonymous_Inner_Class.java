@@ -49,3 +49,26 @@ suppose we need it only once,then we can make anonymous class.
 
         Note :  Anonymous Class can be used only once.
 */
+
+
+
+
+/*
+Car car = new Car() {
+            @Override
+            public void drive() {
+                System.out.println("Driving..");
+//                run();
+            }
+            public void run() {
+                System.out.println("Driving..");
+            }
+        };
+        car.drive();
+//        car.run(); // Can't call it
+    }
+
+
+    We can't create and call specialized method in an anonymous class. If we do so, then we have to
+    call the method from the overriding method.
+ */
