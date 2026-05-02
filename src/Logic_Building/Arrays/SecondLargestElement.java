@@ -1,6 +1,8 @@
 package Logic_Building.Arrays;
 
 public class SecondLargestElement {
+
+    // TC = O(n), SC = O(1)
     private static int getSecondLargest(int[] arr) {
         if (arr == null || arr.length < 2) {
             return -1;
