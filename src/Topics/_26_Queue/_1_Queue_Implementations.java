@@ -59,4 +59,5 @@ public class _1_Queue_Implementations {
 
  * System.out.println(q.peek()); // null
  * q.element(); // NoSuchElementException
+ *
  */
